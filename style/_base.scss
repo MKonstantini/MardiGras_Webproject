@@ -1,0 +1,41 @@
+// _base SCSS
+// for variables, mixings, resets and utility classes
+
+// Colors:
+$myColorPurple: rgb(148, 83, 166);
+$myColorGreen: rgb(140, 191, 63);
+$myColorYellow: rgb(201, 167, 0);
+$myColorWhite: rgb(242, 242, 242);
+$myColorBlack: #0D0D0D;
+$myColorGrey: #e0e0e0;
+
+//Font-Sizing:
+$h1Size: 9rem;
+$h2Size: 1.8rem;
+$h3Size: 2.5rem;
+$pSize: 1.1rem;
+$pLetterSpacing: 0.05rem;
+$pLineHeight: 2rem;
+
+@mixin pMixin {
+    color: #000000;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
+}
+@mixin hMixin {
+    color: #000000;
+    font-family: $font1;
+    letter-spacing: 0.05rem;
+    font-size: $h3Size;
+    font-weight: 500;
+}
+
+//Fonts:
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+$font1: 'Pattaya';
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+$font2: 'Henny Penny';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+$font3: 'Roboto';
+// ^ font3 has weights: 100, 300, 400, 700 downloaded

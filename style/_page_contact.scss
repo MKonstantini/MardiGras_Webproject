@@ -1,0 +1,49 @@
+// CSS for Page : Contact
+
+.contact_section1 {
+    background-color: #f7f7f7;    
+    border: 3px dotted $myColorPurple;
+    padding: 20px;
+    h1 {
+        @include hMixin;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .submit_btn_div {
+        display: flex;
+        justify-content: center;
+        margin: 2.5rem 0 1rem 0;
+        button {
+            width: 100px;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.contact_section2 {
+    background-color: #f7f7f7;    
+    border: 3px dotted $myColorGreen;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .part1{
+        max-width: 600px;
+        margin: 1rem;
+        img{
+            width: 100%;
+        }
+    }
+    .part2{
+        padding: 2rem 1rem;
+        h1 {
+            @include hMixin;
+            // text-align: center;
+            margin-bottom: 1rem;
+        }
+        p {
+            @include pMixin;
+        }
+    }
+    
+}

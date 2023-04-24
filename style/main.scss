@@ -1,0 +1,26 @@
+// Main SCSS
+@import 'base';
+@import 'components';
+@import 'page_index';
+@import 'page_about';
+@import 'page_media';
+@import 'page_FAQ';
+@import 'page_contact';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  padding-top: 56px;
+}
+
+.section_container {
+  padding: 48px 78px;
+}
+@media (max-width: 500px) {
+  .section_container {
+    padding: 48px 20px;
+  }
+}
+

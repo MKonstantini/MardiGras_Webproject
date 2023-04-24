@@ -1,0 +1,29 @@
+// CSS for Page : About
+
+.about_section1 {
+    background-color: $myColorGrey;
+    h2{
+        @include hMixin;
+        margin-bottom: 1rem;
+    }
+    p {
+        @include pMixin;
+    }
+    .part1 {
+        border: 3px dotted $myColorPurple;
+        margin-bottom: 60px;
+        padding: 2rem;
+    }
+    .part2 {
+        border: 3px dotted $myColorGreen;
+        margin-bottom: 36px;
+        padding: 2rem;
+        .info_div {
+            img {
+                width: 220px;
+                border: 5px ridge; 
+                margin: 0 0 20px 20px;
+            }
+        }
+    }
+}
