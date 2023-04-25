@@ -24,7 +24,3 @@ function EndTrivia() {
         alert(`Your score is:   ${score} / 5\nBetter luck next time!`);
     }
 }
-
-function OnFormSubmit() {
-    alert("Contact form sent!\nWe will get back to you!")
-}
